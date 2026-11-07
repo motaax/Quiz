@@ -20,3 +20,26 @@
 #category button {
   margin: 1rem;
 }
+
+@media (max-width: 768px) {
+  .pick-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .pick-category button {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .pick-category img {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+}
